@@ -10,12 +10,12 @@ class Cat
     @name = name #can't change the name because their is no setter after initialize
     @owner = owner #can change the owner because of attr_accessor
     @mood = "nervous" #initializes with nervous mood and can change it later
-    @@all << self 
+    @@all << self
   end
 
   def self.all
     @@all
   end
 
-  
+
 end
